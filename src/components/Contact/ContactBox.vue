@@ -16,9 +16,9 @@
                     <div class="single-contact-box">
                         <i class="flaticon-envelope"></i>
                         <div class="content-title">
-                            <h3>Email</h3>
-                            <a href="mailto:hello@valzo.com">hello@valzo.com</a>
-                            <a href="mailto:fax@valzo.com">fax@valzo.com</a>
+                            <h3>WhatsApp</h3>
+                            <a href="mailto:hello@valzo.com">554 540 0680</a>
+                            <!-- <a href="mailto:fax@valzo.com">fax@valzo.com</a> -->
                         </div>
                     </div>
                 </div>
@@ -27,9 +27,9 @@
                     <div class="single-contact-box">
                         <i class="flaticon-phone-call"></i>
                         <div class="content-title">
-                            <h3>Phone</h3>
-                            <a href="tel:123456123">+123(456)123</a>
-                            <a href="tel:126446129">+126(446)129</a>
+                            <h3>Teléfono</h3>
+                            <a href="tel:800 501 55 55">800 501 55 55</a>
+                            <!-- <a href="tel:126446129">+126(446)129</a> -->
                         </div>
                     </div>
                 </div>

@@ -3,8 +3,11 @@
         <div class="container">
             <div class="login-form">
                 <div class="login-title">
-                    <h3>Welcome Back!</h3>
-                    <p>Please login to your account.</p>
+                    <a href="javascript:void(0);" class="brand-logo">
+                        <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/laboratorios-chontalpa-logotipo1.png" alt="">
+                    </a>
+                    <h3>PORTAL MÉDICO</h3>
+                    <p>Inicia sesión en tu cuenta y comienza la aventura</p>
                 </div>
                     
                 <form>
@@ -29,7 +32,7 @@
                         </div>
 
                         <div class="col-lg-12 text-right">
-                            <p class="forgot-password"><a href="#">Forgot Password?</a></p>
+                            <p class="forgot-password"><a href="#">¿Olvidaste tu contraseña?</a></p>
                         </div>
 
                         <div class="col-lg-12">

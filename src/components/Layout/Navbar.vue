@@ -5,7 +5,9 @@
                 <div class="container">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <router-link class="navbar-brand" to="/">
-                            <img src="../../assets/images/logo.png" alt="logo">
+                            <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/favicon.png" alt="avatar" >
+                            <!-- <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/laboratorios-chontalpa-logotipo1.png" alt="avatar"> -->
+                            <!-- <img src="../../assets/images/logo.png" alt="logo"> -->
                         </router-link>
 
                         <div 
@@ -23,10 +25,10 @@
                             <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
-                                        Home 
-                                        <i class='bx bx-chevron-down'></i>
+                                        Inicio 
+                                        <!-- <i class='bx bx-chevron-down'></i> -->
                                     </a>
-                                    <ul class="dropdown-menu">
+                                    <!-- <ul class="dropdown-menu">
                                         <li class="nav-item">
                                             <router-link  to="/" class="nav-link">
                                                 Home One
@@ -80,38 +82,38 @@
                                                 Home Nine
                                             </router-link>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
 
                                 <li class="nav-item">
                                     <router-link  to="/about" class="nav-link">
-                                        About
+                                        Nosotros
                                     </router-link>
                                 </li>
 
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
-                                        Services 
+                                        Cursos 
                                         <i class='bx bx-chevron-down'></i>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
                                             <router-link  to="/services-one" class="nav-link">
-                                                Services
+                                                Capacitación
                                             </router-link>
                                         </li>
 
                                         <li class="nav-item">
                                             <router-link  to="/services-two" class="nav-link">
-                                                Services Two
+                                                Webinar
                                             </router-link>
                                         </li>
 
-                                        <li class="nav-item">
+                                        <!-- <li class="nav-item">
                                             <router-link  to="/single-services" class="nav-link">
                                                 Services Details
                                             </router-link>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </li>
 
@@ -221,7 +223,10 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <router-link  to="/blog-one" class="nav-link">
+                                        Blog
+                                    </router-link>
+                                    <!-- <a href="#" class="nav-link">
                                         Blog 
                                         <i class='bx bx-chevron-down'></i>
                                     </a>
@@ -243,12 +248,12 @@
                                                 Blog Details
                                             </router-link>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
 
                                 <li class="nav-item">
                                     <router-link  to="/contact" class="nav-link">
-                                        Contact
+                                        Contacto
                                     </router-link>
                                 </li>
                             </ul>

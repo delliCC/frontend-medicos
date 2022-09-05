@@ -2,7 +2,7 @@
     <div class="faq-section pb-100">
         <div class="container">
             <div class="section-title">
-                <h2>Frequently <span>Asked</span> Questions</h2>
+                <h2>Preguntas  <span>frecuentes</span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
                 <div class="bar"></div>
             </div>

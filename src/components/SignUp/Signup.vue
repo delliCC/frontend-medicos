@@ -2,7 +2,7 @@
     <div class="signup-section ptb-100">
             <div class="container">
                 <div class="signup-form">
-                    <h3>Create your Account</h3>
+                    <h3>Crea tu cuenta</h3>
                     <form>
                         <div class="row">
                             <div class="col-lg-12">

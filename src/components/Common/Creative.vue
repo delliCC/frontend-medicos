@@ -5,7 +5,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="creative-content">
-                            <h3>How to Generate <span>Creative</span> Ideas for your IT Business</h3>
+                            <h3>Webinar <span>Sindrome metabolico</span> Agosto</h3>
                             <div class="bar"></div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt  labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus do  umsan lacus vel facilisis.Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry's.</p>
                         </div>

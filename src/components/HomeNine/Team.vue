@@ -2,7 +2,7 @@
     <div class="team-section pb-70">
         <div class="container">
             <div class="section-title">
-                <h2>Our Expert Team</h2>
+                <h2>Nuestro equipo de expertos</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
                 <div class="bar"></div>
             </div>
@@ -38,8 +38,8 @@
                         </div>
 
                         <div class="content">
-                            <h3>Alex Maxwel</h3>
-                            <span>Founder</span>
+                            <h3>Adriana Maxwel</h3>
+                            <span>Dra.</span>
                         </div>
                     </div>
                 </div>

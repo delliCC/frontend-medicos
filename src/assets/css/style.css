@@ -181,7 +181,9 @@ img {
 .default-btn {
   display: inline-block;
   padding: 14px 35px;
-  background-color: #086AD8;
+  /* delli */
+  background-color: #FF6600;
+  /* background-color: #086AD8; */
   color: #ffffff;
   font-size: 15px;
   font-weight: 500;
@@ -190,7 +192,9 @@ img {
 }
 
 .default-btn:hover {
-  background-color: #10dce8;
+  /* delli */
+  /* background-color: #10dce8; */
+  background-color: #009115;
   color: #ffffff;
 }
 
@@ -1330,7 +1334,9 @@ Banner Area CSS
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: #086AD8;
+  /* delli */
+  background: #0071B6;
+  /* background: #086AD8; */
   opacity: 0.6;
 }
 
@@ -1367,8 +1373,10 @@ Banner Area CSS
 }
 
 .home-sliders .home-item .main-banner-content .banner-btn .default-btn {
-  -webkit-box-shadow: 5px 5px #10dce875;
-          box-shadow: 5px 5px #10dce875;
+  -webkit-box-shadow: 5px 5px #fc9a58;
+          box-shadow: 5px 5px #fc9a58;
+  /* -webkit-box-shadow: 5px 5px #10dce875;
+  box-shadow: 5px 5px #10dce875; */
 }
 
 .home-sliders .home-item .main-banner-content .banner-btn .default-btn:hover {
@@ -1459,7 +1467,9 @@ Banner Area CSS
 }
 
 .home-sliders .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button:hover, .home-sliders .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button.carousel__pagination-button--active {
-  background-color: #10dce8 !important;
+  /* background-color: #10dce8 !important; */
+  /* delli */
+  background-color: #FF6600 !important;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
@@ -1482,8 +1492,11 @@ Features Area CSS
   height: 70px;
   width: 70px;
   line-height: 70px;
-  background-color: #d1f9fc;
-  color: #10dce8;
+  /* delli */
+  background-color: #FF6600;
+  color: #ffffff;
+  /* background-color: #d1f9fc; */
+  /* color: #10dce8; */
   text-align: center;
   border-radius: 50px;
   font-size: 35px;
