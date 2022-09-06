@@ -2,7 +2,7 @@
     <div class="services-section bg-color pt-100 pb-70">
         <div class="container">
             <div class="section-title">
-                <h2>IT  Agency Services</h2>
+                <h2>Capacitación</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt  labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
                 <div class="bar"></div>
             </div>
@@ -15,7 +15,7 @@
                         </div>
                         <h3>IT Consultancy</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore facilisis.</p>
-                        <router-link to="/single-services" class="read-btn">Read More</router-link>
+                        <router-link to="/capacitacion" class="read-btn">Read More</router-link>
                     </div>
                 </div>
 
@@ -26,7 +26,7 @@
                         </div>
                         <h3>Web Development</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore facilisis.</p>
-                        <router-link to="/single-services" class="read-btn">Read More</router-link>
+                        <router-link to="/capacitacion" class="read-btn">Read More</router-link>
                     </div>
                 </div>
 
@@ -37,7 +37,7 @@
                         </div>
                         <h3>Digital Marketing</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore facilisis.</p>
-                        <router-link to="/single-services" class="read-btn">Read More</router-link>
+                        <router-link to="/capacitacion" class="read-btn">Read More</router-link>
                     </div>
                 </div>
 
@@ -48,7 +48,7 @@
                         </div>
                         <h3>App Development</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore facilisis.</p>
-                        <router-link to="/single-services" class="read-btn">Read More</router-link>
+                        <router-link to="/capacitacion" class="read-btn">Read More</router-link>
                     </div>
                 </div>
 
@@ -59,7 +59,7 @@
                         </div>
                         <h3>E-commerce Development</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore facilisis.</p>
-                        <router-link to="/single-services" class="read-btn">Read More</router-link>
+                        <router-link to="/capacitacion" class="read-btn">Read More</router-link>
                     </div>
                 </div>
 
@@ -70,7 +70,7 @@
                         </div>
                         <h3>IT Solutions</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore facilisis.</p>
-                        <router-link to="/single-services" class="read-btn">Read More</router-link>
+                        <router-link to="/capacitacion" class="read-btn">Read More</router-link>
                     </div>
                 </div>
             </div>

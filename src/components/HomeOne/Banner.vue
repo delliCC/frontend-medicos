@@ -74,7 +74,7 @@ export default defineComponent ({
                 heading: 'Webinar',
                 // heading: 'Make Real-Life Connections With IT',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut laboredolore magna aliqua elsed  tempomet, consectetur adipiscing.',
-                btnLink: '/contact',
+                btnLink: '/webinar',
                 btnText: 'Get Started',
                 image: require('../../assets/images/image-2.png')
             },

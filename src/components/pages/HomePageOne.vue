@@ -8,7 +8,7 @@
         <Development />
         <Video />
         <Choose />
-        <Projects />
+        <!-- <Projects /> -->
         <Clients />
         <Blog />
         <Footer />
@@ -25,7 +25,7 @@ import Services from '../HomeOne/Services'
 import Development from '../HomeOne/Development'
 import Video from '../Common/Video'
 import Choose from '../HomeOne/Choose'
-import Projects from '../Common/Projects'
+// import Projects from '../Common/Projects'
 import Clients from '../Common/Clients'
 import Blog from '../Common/Blog'
 import Footer from '../Layout/Footer'
@@ -42,7 +42,7 @@ export default {
         Development,
         Video,
         Choose,
-        Projects,
+        // Projects,
         Clients,
         Blog,
         Footer,

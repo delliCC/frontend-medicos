@@ -4,10 +4,10 @@
             <div class="d-table-cell">
                 <div class="container">
                     <div class="page-title-content">
-                        <h2>Privacy Policy</h2>
+                        <h2>Aviso de privacidad</h2>
                         <ul>
-                            <li><router-link to="/">Home</router-link></li>
-                            <li>Privacy Policy</li>
+                            <li><router-link to="/">Inicio</router-link></li>
+                            <li>aviso de privacidad</li>
                         </ul>
                     </div>
                 </div>

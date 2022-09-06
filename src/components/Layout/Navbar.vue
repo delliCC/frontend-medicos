@@ -5,8 +5,8 @@
                 <div class="container">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <router-link class="navbar-brand" to="/">
-                            <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/favicon.png" alt="avatar" >
-                            <!-- <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/laboratorios-chontalpa-logotipo1.png" alt="avatar"> -->
+                            <!-- <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/favicon.png" alt="avatar" > -->
+                            <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/laboratorios-chontalpa-logotipo1.png" alt="avatar">
                             <!-- <img src="../../assets/images/logo.png" alt="logo"> -->
                         </router-link>
 
@@ -86,7 +86,7 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <router-link  to="/about" class="nav-link">
+                                    <router-link  to="/nosotros" class="nav-link">
                                         Nosotros
                                     </router-link>
                                 </li>
@@ -98,13 +98,13 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <router-link  to="/services-one" class="nav-link">
+                                            <router-link  to="/capacitacion" class="nav-link">
                                                 Capacitación
                                             </router-link>
                                         </li>
 
                                         <li class="nav-item">
-                                            <router-link  to="/services-two" class="nav-link">
+                                            <router-link  to="/webinar" class="nav-link">
                                                 Webinar
                                             </router-link>
                                         </li>
@@ -118,7 +118,10 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <router-link  to="/estudios" class="nav-link">
+                                        Estudios
+                                    </router-link>
+                                    <!-- <a href="#" class="nav-link">
                                         Projects 
                                         <i class='bx bx-chevron-down'></i>
                                     </a>
@@ -141,10 +144,10 @@
                                                 Projects details
                                             </router-link>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
 
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a href="#" class="nav-link">
                                         Pages 
                                         <i class='bx bx-chevron-down'></i>
@@ -220,7 +223,7 @@
                                             </router-link>
                                         </li>
                                     </ul>
-                                </li>
+                                </li> -->
 
                                 <li class="nav-item">
                                     <router-link  to="/blog-one" class="nav-link">

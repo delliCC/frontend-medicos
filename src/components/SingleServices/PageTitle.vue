@@ -4,10 +4,11 @@
             <div class="d-table-cell">
                 <div class="container">
                     <div class="page-title-content">
-                        <h2>Single Services</h2>
+                        <h2>Webinar Detalle</h2>
                         <ul>
-                            <li><router-link to="/">Home</router-link></li>
-                            <li>Single Services</li>
+                            <li><router-link to="/">Inicio</router-link></li>
+                            <li>webinar</li>
+                            <li>detalle</li>
                         </ul>
                     </div>
                 </div>

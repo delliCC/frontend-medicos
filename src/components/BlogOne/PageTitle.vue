@@ -6,7 +6,7 @@
                     <div class="page-title-content">
                         <h2>Blog</h2>
                         <ul>
-                            <li><router-link to="/">Home</router-link></li>
+                            <li><router-link to="/">Inicio</router-link></li>
                             <li>Blog</li>
                         </ul>
                     </div>

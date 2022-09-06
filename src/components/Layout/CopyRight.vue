@@ -18,7 +18,7 @@
                                 <router-link to="/terms-condition">Términos y Condiciones</router-link>
                             </li>
                             <li>
-                                <router-link to="/privacy-policy">Aviso de Privacidad</router-link>
+                                <router-link to="/aviso-de-privacidad">Aviso de Privacidad</router-link>
                             </li>
                         </ul>
                     </div>
