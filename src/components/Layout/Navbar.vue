@@ -5,8 +5,8 @@
                 <div class="container">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <router-link class="navbar-brand" to="/">
-                            <!-- <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/favicon.png" alt="avatar" > -->
-                            <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/laboratorios-chontalpa-logotipo1.png" alt="avatar">
+                            <!-- <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/favicon.png" alt="avatar" > -->
+                            <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/laboratorios-chontalpa-logotipo1.png" alt="avatar">
                             <!-- <img src="../../assets/images/logo.png" alt="logo"> -->
                         </router-link>
 

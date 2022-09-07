@@ -142,7 +142,45 @@
 </template>
 
 <script>
+
     export default {
-        name: 'Protfolio'
+        name: 'Protfolio',
+        data() {
+            return {
+                
+            }
+        },
+        mounted() {
+            // this.estudios()
+        },
+        methods:{
+            estudios(ctx, callback) {
+                this.$axios.get('http://localhost/estudios/listar', {
+                    // params: {
+                    // page: ctx.currentPage,
+                    // filter: ctx.filter,
+                    // sortBy: ctx.sortBy,
+                    // sortDesc: ctx.sortDesc ? 'desc' : 'asc',
+                    // perPage: ctx.perPage,
+                    // },
+                }).then(response => {
+                    const res = response.data.data
+                    console.log(res)
+                    // const clientes = res.data.map(element => ({
+                    // id: element.id,
+                    // ax_ceros: element.ax_ceros,
+                    // codigo_stw: element.codigo_stw,
+                    // nombre_cliente: element.nombre_cliente,
+                    // status: element.status ? 'Activo' : 'Inactivo',
+                    // }))
+                    // this.totalRows = res.total
+                    // this.tableTo = res.to
+                    // this.tableFrom = res.from
+                    callback()
+                }).catch(() => {
+                    localStorage.removeItem('usuario_cobranza')
+                })
+            },
+        }
     }
 </script>

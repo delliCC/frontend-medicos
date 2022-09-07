@@ -82,7 +82,7 @@ export default {
             tabs: [
                 {
                     id: 1,
-                    name: 'nuestra Historia',
+                    name: 'Nuestra Historia',
                     title: 'How To Generate Your Creative Idea With IT Business',
                     lists: [
                         {

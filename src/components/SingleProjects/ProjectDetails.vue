@@ -1,3 +1,4 @@
+<!-- estudios detalle delli -->
 <template>
     <div class="project-details-area ptb-100">
         <div class="container">
@@ -16,7 +17,7 @@
 
                 <div class="col-lg-12 col-md-12">
                     <div class="projects-details-desc">
-                        <h3>Competitor Analysis</h3>
+                        <h3>Competitor </h3>
 
                         <p>Lorem ipsum dolor sit amet, conse cte tuer adipiscing elit, sed diam no nu m nibhie eui smod. Facil isis atve eros et accumsan etiu sto odi dignis sim qui blandit praesen lup ta de er. At molestiae appellantur pro. Vis wisi oportere per ic ula ad, ei latine prop riae na, mea cu purto debitis.</p>
 
@@ -73,4 +74,38 @@
     export default {
         name: 'ProjectDetails'
     }
+
+// Vue.component('body-proyectos', {
+//     mixins: [mixins],
+//     data: () => ({
+
+//         loading: false,
+
+//         datosProyecto: {},
+
+//         datos_nombres_etapa: [],
+//         datos_color_etapa: [],
+
+//         totalTareas: null,
+//         idTarea: null,
+//         datos_tareas: [],
+
+//         datos_responsables: [],
+//         datos_fuera_tiempo: [],
+
+//     }),
+//     mounted() {
+     
+//     },
+//     methods: {
+//         grafica(idProyecto) {
+//         //   falta el cargando 
+//             axios.get(`http://localhost/estudios/listar${idProyecto}`).then(response => {
+ 
+//                 this.datosProyecto = response.data.etapas;
+
+//             });
+//         },
+//     }
+// });
 </script>
