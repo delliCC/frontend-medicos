@@ -151,11 +151,11 @@
             }
         },
         mounted() {
-            // this.estudios()
+            this.estudios()
         },
         methods:{
             estudios(ctx, callback) {
-                this.$axios.get('http://localhost/estudios/listar', {
+                this.$axios.get('http://localhost/api/estudios', {
                     // params: {
                     // page: ctx.currentPage,
                     // filter: ctx.filter,
@@ -164,6 +164,7 @@
                     // perPage: ctx.perPage,
                     // },
                 }).then(response => {
+                    console.log(response)
                     const res = response.data.data
                     console.log(res)
                     // const clientes = res.data.map(element => ({
@@ -178,7 +179,7 @@
                     // this.tableFrom = res.from
                     callback()
                 }).catch(() => {
-                    localStorage.removeItem('usuario_cobranza')
+                    //localStorage.removeItem('usuario_cobranza')
                 })
             },
         }
