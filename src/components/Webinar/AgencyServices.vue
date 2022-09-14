@@ -27,7 +27,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <!-- <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-agency">
                         <div class="image">
                             <router-link to="/webinar-detalle">
@@ -120,7 +120,7 @@
                             </router-link>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="col-lg-12 col-md-12">
                     <div class="pagination-area">
@@ -143,6 +143,31 @@
 
 <script>
     export default {
-        name: 'AgencyServices'
+        name: 'AgencyServices',
+        data() {
+            return {
+                array_webinar:[]
+            }
+        },
+        mounted() {
+            this.webinar()
+        },
+        methods:{
+            webinar() {
+                this.$axios.get(`http://localhost/api/webinar`).then(response => {
+                    this.array_webinar = response.data.data
+                    
+                }).catch(() => {
+                // this.$toast({
+                // component: ToastificationContent,
+                // props: {
+                //     title: 'Error al cargar datos',
+                //     icon: 'ThumbsDownIcon',
+                //     variant: 'danger',
+                // },
+                // })
+                })
+            },
+        }
     }
 </script>

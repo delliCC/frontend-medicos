@@ -8,8 +8,8 @@
             </div>
 
             <div class="row">
-                <span v-for="estudios in array_estudios" :key="estudios.id"></span>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+               
+                <div class="col-lg-4 col-md-6 col-sm-6" v-for="estudios in array_estudios" :key="estudios.id">
                     <div class="single-protfolio">
                         <div class="image">
                             <router-link to="/estudios-detalle">
@@ -19,7 +19,7 @@
 
                         <div class="content">
                             <router-link to="/estudios-detalle">
-                                <h3>{{estudios}}</h3>
+                                <h3>{{estudios.titulo}}</h3>
                             </router-link>
                             <router-link to="/estudios-detalle">
                                 <span>Web Design</span>
@@ -27,7 +27,7 @@
                         </div>
                     </div>
                 </div>
-
+               
                 <!-- <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-protfolio">
                         <div class="image">
@@ -157,31 +157,8 @@
         methods:{
             estudios() {
                 this.$axios.get(`http://localhost/api/estudios`).then(response => {
-                    // console.log(response.data)
-              
-                    // this.array_estudios = response.data.datos
-
-                  
-                    // console.log(JSON.parse(JSON.stringify(response.data.data)))
-                    // console.log(this.array_estudios)
-
-                    const dinner={
-                        meal: response.data.data
-                    }
-
-                    const handler={
-                        get(target, prop) {
-                            // console.log(target.meal)
-                            return target[prop]
-                        }
-                    }
-
-                    const proxy= new Proxy(dinner, handler)
-                    console.log(proxy.meal)
-                    this.array_estudios =proxy.meal
-                    console.log(this.array_estudios )
-
-                 
+                    this.array_estudios = response.data.data
+                    
                 }).catch(() => {
                 // this.$toast({
                 // component: ToastificationContent,

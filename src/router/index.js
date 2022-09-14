@@ -12,10 +12,10 @@ import HomePageEight from '../components/pages/HomePageEight'
 import HomePageNine from '../components/pages/HomePageNine'
 import AboutPage from '../components/pages/AboutPage'
 import ServicesOnePage from '../components/pages/ServicesOnePage'
-import ServicesTwoPage from '../components/pages/ServicesTwoPage'
+import Webinar from '../components/pages/Webinar'
 import SingleServicesPage from '../components/pages/SingleServicesPage'
 import ProjectsPageOne from '../components/pages/ProjectsPageOne'
-import ProjectsPageTwo from '../components/pages/ProjectsPageTwo'
+import Estudios from '../components/pages/Estudios'
 import SingleProjectsPage from '../components/pages/SingleProjectsPage'
 import BlogOnePage from '../components/pages/BlogOnePage'
 import BlogTwoPage from '../components/pages/BlogTwoPage'
@@ -42,10 +42,10 @@ const routes = [
     {path: '/home-nine', component: HomePageNine},
     {path: '/nosotros', component: AboutPage},
     {path: '/capacitacion', component: ServicesOnePage},
-    {path: '/webinar', component: ServicesTwoPage},
+    {path: '/webinar', component: Webinar},
     {path: '/webinar-detalle', component: SingleServicesPage},
     {path: '/projects-one', component: ProjectsPageOne},
-    {path: '/estudios', component: ProjectsPageTwo},
+    {path: '/estudios', component: Estudios},
     {path: '/estudios-detalle', component: SingleProjectsPage},
     {path: '/blog-one', component: BlogOnePage},
     {path: '/blog-two', component: BlogTwoPage},
