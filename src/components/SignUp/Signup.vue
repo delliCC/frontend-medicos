@@ -26,19 +26,19 @@
                             <div class="col-lg-12">
                                 <div class="form-check">
                                     <input type="checkbox" class="form-check-input" id="checkme">
-                                    <label class="form-check-label" for="checkme">Keep Me Sign Up</label>
+                                    <label class="form-check-label" for="checkme">Recuérdame</label>
                                 </div>
                             </div>
 
                             <div class="col-lg-12">
                                 <div class="send-btn">
                                     <button type="submit" class="default-btn">
-                                        Sign Up Now
+                                        Inicia sesión
                                         <span></span>
                                     </button>
                                 </div>
                                 <br>
-                                <span>Already a registered user? <router-link to="/log-in">Login!</router-link></span>
+                                <span>¿Ya eres un usuario registrado?<router-link to="/log-in">¡Inicia sesión aqui!</router-link></span>
                             </div>
                         </div>
                     </form>

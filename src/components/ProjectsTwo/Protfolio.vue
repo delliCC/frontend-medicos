@@ -8,8 +8,7 @@
             </div>
 
             <div class="row">
-                // eslint-disable-next-line vue/require-v-for-key
-                <span v-for="estudios in array_estudios" :key=""></span>
+                <span v-for="estudios in array_estudios" :key="estudios.id"></span>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-protfolio">
                         <div class="image">
@@ -20,7 +19,7 @@
 
                         <div class="content">
                             <router-link to="/estudios-detalle">
-                                <h3>Creative Web Develop</h3>
+                                <h3>{{estudios}}</h3>
                             </router-link>
                             <router-link to="/estudios-detalle">
                                 <span>Web Design</span>
@@ -158,8 +157,30 @@
         methods:{
             estudios() {
                 this.$axios.get(`http://localhost/api/estudios`).then(response => {
-                    this.array_estudios = response.data
-                    console.log(this.array_estudios)
+                    // console.log(response.data)
+              
+                    // this.array_estudios = response.data.datos
+
+                  
+                    // console.log(JSON.parse(JSON.stringify(response.data.data)))
+                    // console.log(this.array_estudios)
+
+                    const dinner={
+                        meal: response.data.data
+                    }
+
+                    const handler={
+                        get(target, prop) {
+                            // console.log(target.meal)
+                            return target[prop]
+                        }
+                    }
+
+                    const proxy= new Proxy(dinner, handler)
+                    console.log(proxy.meal)
+                    this.array_estudios =proxy.meal
+                    console.log(this.array_estudios )
+
                  
                 }).catch(() => {
                 // this.$toast({

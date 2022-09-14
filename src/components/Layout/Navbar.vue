@@ -259,10 +259,16 @@
                                         Contacto
                                     </router-link>
                                 </li>
+                                <li class="nav-item">
+                                    <router-link  to="/log-in" class="nav-link">
+                                        Iniciar sesión
+                                    </router-link>
+                                </li>
                             </ul>
                         </div>
 
-                        <div class="others-options">
+                        <!-- icono  -->
+                        <!-- <div class="others-options">
                             <div 
                                 class="burger-menu"
                                 v-on:click="isPopupMethod(isPopup)"
@@ -271,7 +277,7 @@
                                 <span></span>
                                 <span></span>
                             </div>
-                        </div>
+                        </div> -->
                     </nav>
                 </div>
             </div>
@@ -299,85 +305,14 @@
                     <h2>Contact</h2>
                     <div class="contact-form">
                         <form>
-                            <div class="row">
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" name="name" id="name" class="form-control" required placeholder="Your Name">
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <input type="email" name="email" id="email" class="form-control" required placeholder="Your Email">
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" name="phone_number" id="phone_number" required class="form-control" placeholder="Your Phone">
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" name="msg_subject" id="msg_subject" class="form-control" required placeholder="Your Subject">
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <textarea name="message" class="form-control" id="message" cols="30" rows="6" required placeholder="Your Message"></textarea>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="send-btn">
-                                        <button type="submit" class="send-btn-one">
-                                            Send Message
-                                        </button>
-                                    </div>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="send-btn">
+                                    <button type="submit" class="send-btn-one">
+                                        Send Message
+                                    </button>
                                 </div>
                             </div>
                         </form>
-                    </div>
-                </div>
-
-                <div class="sidebar-contact-area">
-                    <div class="contact-info">
-                        <div class="contact-info-content">
-                            <h2>
-                                <a href="tel:+0881306298615">
-                                    +088 130 629 8615
-                                </a>
-                                <span>OR</span>
-                                <a href="mailto:valzo@gmail.com">
-                                    valzo@gmail.com
-                                </a>
-                            </h2>
-
-                            <ul class="social">
-                                <li>
-                                    <a href="#" target="_blank">
-                                        <i class="flaticon-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" target="_blank">
-                                        <i class="flaticon-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" target="_blank">
-                                        <i class="flaticon-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" target="_blank">
-                                        <i class="flaticon-pinterest"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
             </div>
