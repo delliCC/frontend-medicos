@@ -10,13 +10,13 @@
 
 <script>
     import Navbar from '../Layout/Navbar'
-    import PageTitle from '../ServicesOne/PageTitle'
-    import Services from '../ServicesOne/Services'
+    import PageTitle from '../Capacitacion/PageTitle'
+    import Services from '../Capacitacion/Services'
     import Footer from '../Layout/Footer'
     import CopyRight from '../Layout/CopyRight'
 
     export default {
-        name: 'ServicesOnePage',
+        name: 'Capacitacion',
         components: {
             Navbar,
             PageTitle,

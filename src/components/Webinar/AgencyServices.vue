@@ -8,17 +8,18 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-lg-4 col-md-6 col-sm-6" v-for="webinar in array_webinar" :key="webinar.id">
                     <div class="single-agency">
                         <div class="image">
                             <router-link to="/webinar-detalle">
-                                <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/webinar1.png" alt="image">
+                                <!-- <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/webinar1.png" alt="image"></img> -->
+                                <img v-bind:src="webinar.webinar_url" alt="image" >
                             </router-link>
                         </div>
 
                         <div class="content">
                             <router-link to="/webinar-detalle">
-                                <h6>Ventajas del examen de orina por citometria de flujo vs metodos tradicionales</h6>
+                                <h6>{{webinar.nombre}}</h6>
                             </router-link>
                             <router-link to="/webinar-detalle">
                                 <span>Registrarse</span>
@@ -26,101 +27,6 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-agency">
-                        <div class="image">
-                            <router-link to="/webinar-detalle">
-                                <img src="../../assets/images/agency/agency-2.png" alt="image">
-                            </router-link>
-                        </div>
-
-                        <div class="content">
-                            <router-link to="/webinar-detalle">
-                                <h6>Repercusiones del sindrome metabolico durante el embarazo</h6>
-                            </router-link>
-                            <router-link to="/webinar-detalle">
-                                <span>Registrarse</span>
-                            </router-link>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-agency">
-                        <div class="image">
-                            <router-link to="/webinar-detalle">
-                                <img src="../../assets/images/agency/agency-3.png" alt="image">
-                            </router-link>
-                        </div>
-
-                        <div class="content">
-                            <router-link to="/webinar-detalle">
-                                <h3>Complex Design</h3>
-                            </router-link>
-                            <router-link to="/webinar-detalle">
-                                <span>Solutions</span>
-                            </router-link>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-agency">
-                        <div class="image">
-                            <router-link to="/webinar-detalle">
-                                <img src="../../assets/images/agency/agency-4.png" alt="image">
-                            </router-link>
-                        </div>
-
-                        <div class="content">
-                            <router-link to="/webinar-detalle">
-                                <h3>Software Engineers</h3>
-                            </router-link>
-                            <router-link to="/webinar-detalle">
-                                <span>Analysis</span>
-                            </router-link>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-agency">
-                        <div class="image">
-                            <router-link to="/webinar-detalle">
-                                <img src="../../assets/images/agency/agency-5.png" alt="image">
-                            </router-link>
-                        </div>
-
-                        <div class="content">
-                            <router-link to="/webinar-detalle">
-                                <h3>Marketing Agency</h3>
-                            </router-link>
-                            <router-link to="/webinar-detalle">
-                                <span>Marketing</span>
-                            </router-link>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-agency">
-                        <div class="image">
-                            <router-link to="/webinar-detalle">
-                                <img src="../../assets/images/agency/agency-6.png" alt="image">
-                            </router-link>
-                        </div>
-
-                        <div class="content">
-                            <router-link to="/webinar-detalle">
-                                <h3>Data Analysis</h3>
-                            </router-link>
-                            <router-link to="/webinar-detalle">
-                                <span>Explanation</span>
-                            </router-link>
-                        </div>
-                    </div>
-                </div> -->
 
                 <div class="col-lg-12 col-md-12">
                     <div class="pagination-area">
@@ -156,6 +62,7 @@
             webinar() {
                 this.$axios.get(`http://localhost/api/webinar`).then(response => {
                     this.array_webinar = response.data.data
+                    console.log(this.array_webinar)
                     
                 }).catch(() => {
                 // this.$toast({
