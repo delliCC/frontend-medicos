@@ -5,7 +5,7 @@
                 <div class="col-lg-8 col-md-12">
                     <div class="blog-details-desc">
                         <div class="article-image">
-                            <img src="../../assets/images/blog/blog-details-5.jpg" alt="image">
+                            <!-- <img :src="`${imagen_destacada.imagen_destacada}`"  alt="image"> -->
                         </div>
                         <div class="article-content">
                             <div class="entry-meta">

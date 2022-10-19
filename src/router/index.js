@@ -49,7 +49,7 @@ const routes = [
     {path: '/estudios-detalle', component: SingleProjectsPage},
     {path: '/blog-one', component: BlogOnePage},
     {path: '/blog-two', component: BlogTwoPage},
-    {path: '/single-blog', component: SingleBlogPage},
+    {path: '/single-blog/:id', component: SingleBlogPage},
     {path: '/contact', component: ContactPage},
     {path: '/team', component: TeamPage},
     {path: '/pricing', component: PricingPage},
