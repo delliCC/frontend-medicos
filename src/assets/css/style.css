@@ -7121,8 +7121,15 @@ Services Details CSS
 /*================================================
 Projects Details Area CSS
 =================================================*/
+/* delli */
 .project-details-image {
   margin-bottom: 30px;
+  height:500px
+}
+
+.imgEstudiosDetalle {
+  width: auto; 
+  max-height: 100%; 
 }
 
 .projects-details-desc {

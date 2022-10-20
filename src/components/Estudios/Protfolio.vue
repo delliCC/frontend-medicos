@@ -8,21 +8,20 @@
             </div>
 
             <div class="row">
-               
                 <div class="col-lg-4 col-md-6 col-sm-6" v-for="estudios in array_estudios" :key="estudios.id">
                     <div class="single-protfolio">
                         <div class="image">
-                            <router-link to="/estudios-detalle">
-                                <img src="../../assets/images/portfolio/portfolio-1.png" alt="image">
+                            <router-link :to="`/estudios-detalle/${estudios.id}`">
+                                <img :src="`${estudios.imagen_portada}`"  alt="image">
                             </router-link>
                         </div>
 
                         <div class="content">
-                            <router-link to="/estudios-detalle">
+                            <router-link :to="`/estudios-detalle/${estudios.id}`">
                                 <h3>{{estudios.titulo}}</h3>
                             </router-link>
-                            <router-link to="/estudios-detalle">
-                                <span>Web Design</span>
+                            <router-link class="read-more" 
+                            :to="`/estudios-detalle/${estudios.id}`">Leer más. . . 
                             </router-link>
                         </div>
                     </div>
@@ -75,7 +74,6 @@
                 // })
                 })
             },
-            
         }
     }
 </script>

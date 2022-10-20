@@ -46,7 +46,7 @@ const routes = [
     {path: '/webinar-detalle', component: SingleServicesPage},
     {path: '/projects-one', component: ProjectsPageOne},
     {path: '/estudios', component: Estudios},
-    {path: '/estudios-detalle', component: SingleProjectsPage},
+    {path: '/estudios-detalle/:id', component: SingleProjectsPage},
     {path: '/blog-one', component: BlogOnePage},
     {path: '/blog-two', component: BlogTwoPage},
     {path: '/single-blog/:id', component: SingleBlogPage},

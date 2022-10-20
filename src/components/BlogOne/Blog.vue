@@ -11,7 +11,7 @@
                 <div class="col-lg-4 col-md-6" v-for="blog in array_blog" :key="blog.id">
                     <div class="single-blog">
                         <div class="image">
-                            <router-link to="/single-blog">
+                            <router-link :to="`/single-blog/${blog.id}`">
                                 <img :src="`${blog.imagen_portada}`"  alt="image">
                             </router-link>
                         </div>
@@ -25,7 +25,6 @@
                             </h3>
                             <p>{{blog.descripcion_portada}}</p>
                             <router-link class="read-more" :to="`/single-blog/${blog.id}`">Read More</router-link>
-
                         </div>
                     </div>
                 </div>
@@ -58,10 +57,10 @@
             }
         },
         mounted() {
-            this.webinar()
+            this.blog()
         },
         methods:{
-            webinar() {
+            blog() {
                 this.$axios.post(`http://localhost/api/blog`).then(response => {
                     this.array_blog = response.data.data
                     console.log(this.array_blog)
