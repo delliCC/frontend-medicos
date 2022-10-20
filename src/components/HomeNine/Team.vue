@@ -11,7 +11,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="team-item">
                         <div class="image">
-                            <img src="../../assets/images/team/team-4.jpg" alt="image">
+                            <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/IMG_7556.JPG" alt="image">
 
                             <ul class="social">
                                 <li>
