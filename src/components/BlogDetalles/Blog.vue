@@ -73,7 +73,7 @@
                                 <ul class="social">
                                     <li><span>compartir:</span></li>
                                     <li>
-                                        <a href="#" target="_blank">
+                                        <a href="https://www.facebook.com/LaboratoriosChontalpa/" target="_blank">
                                             <i class="flaticon-facebook"></i>
                                         </a>
                                     </li>

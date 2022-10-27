@@ -64,7 +64,7 @@
                             <div class="single-info-box">
                                 <h4>Compartir</h4>
                                 <ul class="social">
-                                    <li><a href="#" target="_blank"><i class="flaticon-facebook"></i></a></li>
+                                    <li><a href="https://www.facebook.com/LaboratoriosChontalpa/" target="_blank"><i class="flaticon-facebook"></i></a></li>
                                     <!-- <li><a href="#" target="_blank"><i class="flaticon-twitter"></i></a></li>
                                     <li><a href="#" target="_blank"><i class="flaticon-pinterest"></i></a></li> -->
                                     <li><a href="#" target="_blank"><i class="flaticon-instagram"></i></a></li>

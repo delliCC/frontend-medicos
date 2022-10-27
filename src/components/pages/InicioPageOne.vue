@@ -18,13 +18,13 @@
 
 <script>
 import Navbar from '../Layout/Navbar'
-import Banner from '../HomeOne/Banner'
+import Banner from '../Inicio/Banner'
 import Features from '../Common/Features'
 import Creative from '../Common/Creative'
-import Services from '../HomeOne/Services'
-import Development from '../HomeOne/Development'
+import Services from '../Inicio/Services'
+import Development from '../Inicio/Development'
 import Video from '../Common/Video'
-import Choose from '../HomeOne/Choose'
+import Choose from '../Inicio/Choose'
 // import Projects from '../Common/Projects'
 import Clients from '../Common/Clients'
 import Blog from '../Common/Blog'
@@ -32,7 +32,7 @@ import Footer from '../Layout/Footer'
 import CopyRight from '../Layout/CopyRight'
 
 export default {
-    name: 'HomePageOne',
+    name: 'InicioPageOne',
     components: {
         Navbar,
         Banner,
