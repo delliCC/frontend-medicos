@@ -226,7 +226,7 @@
                                 </li> -->
 
                                 <li class="nav-item">
-                                    <router-link  to="/blog-one" class="nav-link">
+                                    <router-link  to="/blog" class="nav-link">
                                         Blog
                                     </router-link>
                                     <!-- <a href="#" class="nav-link">

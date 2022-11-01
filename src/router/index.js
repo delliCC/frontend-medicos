@@ -47,7 +47,7 @@ const routes = [
     {path: '/projects-one', component: ProjectsPageOne},
     {path: '/estudios', component: Estudios},
     {path: '/estudios-detalle/:id', component: SingleProjectsPage},
-    {path: '/blog-one', component: BlogOnePage},
+    {path: '/blog', component: BlogOnePage},
     {path: '/blog-two', component: BlogTwoPage},
     {path: '/single-blog/:id', component: SingleBlogPage},
     {path: '/contact', component: ContactPage},

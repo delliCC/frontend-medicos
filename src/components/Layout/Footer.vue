@@ -1,5 +1,5 @@
 <template>
-    <div class="footer-section pt-100 pb-70">
+    <div class="footer-section pt-70 pb-40">
         <div class="container">
             <!-- <div class="subscribe-area">
                 <div class="row align-items-center">
@@ -60,18 +60,12 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
                         <div class="footer-heading">
-                            <h3>Important Links</h3>
+                            <h3></h3>
                         </div>
 
                         <ul class="footer-quick-links">
                             <li>
-                                <router-link to="/about">About Us</router-link>
-                            </li>
-                            <li>
-                                <router-link to="/projects">Project</router-link>
-                            </li>
-                            <li>
-                                <router-link to="/services">Services</router-link>
+                                <router-link to="/nosotros">Nosotros</router-link>
                             </li>
                             <li>
                                 <router-link to="/blog">Blog</router-link>
@@ -86,23 +80,17 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
                         <div class="footer-heading">
-                            <h3>Featured Service</h3>
+                            <h3>Servicios</h3>
                         </div>
                         <ul class="footer-quick-links">
                             <li>
-                                <a href="#">IT Management</a>
+                                <router-link to="/estudios">Estudios</router-link>
                             </li>
                             <li>
-                                <a href="#">Development</a>
+                                <router-link to="/capacitacion">Capacitación</router-link>
                             </li>
                             <li>
-                                <router-link to="/services">Services</router-link>
-                            </li>
-                            <li>
-                                <a href="#">UI/UX Design</a>
-                            </li>
-                            <li>
-                                <a href="#">Support Engineer</a>
+                                <router-link to="/webinar">Webinar</router-link>
                             </li>
                         </ul>
                     </div>    
