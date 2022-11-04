@@ -1,6 +1,6 @@
 <template>
     <aside class="widget-area" id="secondary">
-        <div class="widget widget_search">
+        <!-- <div class="widget widget_search">
             <form class="search-form search-top">
                 <label>
                     <span class="screen-reader-text">Search for:</span>
@@ -10,7 +10,7 @@
                     <i class="flaticon-search"></i>
                 </button>
             </form>
-        </div>
+        </div> -->
         <div class="widget widget_fria_posts_thumb">
             <h3 class="widget-title">Popular Posts</h3>
             <article class="item">
@@ -71,7 +71,7 @@
             </ul>
         </div>
 
-        <div class="widget widget_recent_comments">
+        <!-- <div class="widget widget_recent_comments">
             <h3 class="widget-title">Recent Comments</h3>
             <ul>
                 <li>
@@ -110,7 +110,7 @@
                     <router-link to="/">Hello world!</router-link>
                 </li>
             </ul>
-        </div>
+        </div> -->
 
         <div class="widget widget_recent_entries">
             <h3 class="widget-title">Recent Posts</h3>
@@ -133,7 +133,7 @@
             </ul>
         </div>
 
-        <div class="widget widget_meta">
+        <!-- <div class="widget widget_meta">
             <h3 class="widget-title">Meta</h3>
             <ul>
                 <li>
@@ -153,9 +153,9 @@
                     <router-link to="/">WordPress.org</router-link>
                 </li>
             </ul>
-        </div>
+        </div> -->
 
-        <div class="widget widget_archive">
+        <!-- <div class="widget widget_archive">
             <h3 class="widget-title">Archives</h3>
             <ul>
                 <li>
@@ -206,7 +206,7 @@
                     <span class="tag-link-count"> (2)</span>
                 </router-link>
             </div>
-        </div>
+        </div> -->
     </aside>
 </template>
 

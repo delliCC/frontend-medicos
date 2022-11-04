@@ -5,9 +5,9 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6">
                         <p>
-                            Copyright &copy; {{currentYear}} Valzo. All Rights Reserved by
-                            <a href="https://envytheme.com/" target="_blank">
-                                EnvyTheme
+                            Copyright &copy; {{currentYear}} Lab. Todos los derechos reservados por 
+                            <a href="https://www.laboratorioschontalpa.com.mx/" target="_blank">
+                                https://www.laboratorioschontalpa.com.mx/
                             </a>
                         </p>
                     </div>
@@ -15,10 +15,10 @@
                     <div class="col-lg-6 col-md-6">
                         <ul>
                             <li>
-                                <router-link to="/terms-condition">Terms & Conditions</router-link>
+                                <router-link to="/terms-condition">Términos y Condiciones</router-link>
                             </li>
                             <li>
-                                <router-link to="/privacy-policy">Privacy Policy</router-link>
+                                <router-link to="/aviso-de-privacidad">Aviso de Privacidad</router-link>
                             </li>
                         </ul>
                     </div>

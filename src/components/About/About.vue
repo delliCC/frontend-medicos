@@ -10,7 +10,7 @@
 
                 <div class="col-lg-6">
                     <div class="about-tab">
-                        <h2>About Our Valzo Agency</h2>
+                        <h2>Acerca de Laboratorios chontalpa</h2>
                         <div class="bar"></div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo.</p>
 
@@ -56,9 +56,9 @@
 
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
 
-                                            <a class="default-btn" href="#">
+                                            <!-- <a class="default-btn" href="#">
                                                 Discover More
-                                            </a>
+                                            </a> -->
                                         </div>
                                     </div>
                                 </div>
@@ -82,7 +82,7 @@ export default {
             tabs: [
                 {
                     id: 1,
-                    name: 'Our History',
+                    name: 'Nuestra Historia',
                     title: 'How To Generate Your Creative Idea With IT Business',
                     lists: [
                         {
@@ -112,7 +112,7 @@ export default {
                 },
                 {
                     id: 2,
-                    name: 'Our History',
+                    name: 'Sucursales',
                     title: 'How To Generate Your Creative Idea With IT Business',
                     lists: [
                         {

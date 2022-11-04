@@ -62,25 +62,26 @@ export default defineComponent ({
             {
                 id: 1,
                 class: 'home-item item-bg1',
-                heading: 'Make Real-Life Connections With IT',
+                heading: 'POnte al dia',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut laboredolore magna aliqua elsed  tempomet, consectetur adipiscing.',
                 btnLink: '/contact',
-                btnText: 'Get Started',
+                btnText: 'Click aqui',
                 image: require('../../assets/images/image-1.png')
             },
             {
                 id: 2,
                 class: 'home-item item-bg2',
-                heading: 'Make Real-Life Connections With IT',
+                heading: 'Webinar',
+                // heading: 'Make Real-Life Connections With IT',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut laboredolore magna aliqua elsed  tempomet, consectetur adipiscing.',
-                btnLink: '/contact',
+                btnLink: '/webinar',
                 btnText: 'Get Started',
                 image: require('../../assets/images/image-2.png')
             },
             {
                 id: 3,
                 class: 'home-item item-bg3',
-                heading: 'Make Real-Life Connections With IT',
+                heading: 'Conectate con nosotros',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut laboredolore magna aliqua elsed  tempomet, consectetur adipiscing.',
                 btnLink: '/contact',
                 btnText: 'Get Started',

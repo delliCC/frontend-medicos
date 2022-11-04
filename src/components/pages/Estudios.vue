@@ -2,7 +2,7 @@
     <div>
         <Navbar />
         <PageTitle />
-        <AgencyServices />
+        <Protfolio />
         <Footer />
         <CopyRight />
     </div>
@@ -10,17 +10,17 @@
 
 <script>
     import Navbar from '../Layout/Navbar'
-    import PageTitle from '../ServicesTwo/PageTitle'
-    import AgencyServices from '../ServicesTwo/AgencyServices'
+    import PageTitle from '../Estudios/PageTitle'
+    import Protfolio from '../Estudios/Protfolio'
     import Footer from '../Layout/Footer'
     import CopyRight from '../Layout/CopyRight'
 
     export default {
-        name: 'ServicesTwoPage',
+        name: 'Estudios',
         components: {
             Navbar,
             PageTitle,
-            AgencyServices,
+            Protfolio,
             Footer,
             CopyRight,
         }

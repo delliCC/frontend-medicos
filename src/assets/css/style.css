@@ -181,7 +181,9 @@ img {
 .default-btn {
   display: inline-block;
   padding: 14px 35px;
-  background-color: #086AD8;
+  /* delli */
+  background-color: #FF6600;
+  /* background-color: #086AD8; */
   color: #ffffff;
   font-size: 15px;
   font-weight: 500;
@@ -190,7 +192,9 @@ img {
 }
 
 .default-btn:hover {
-  background-color: #10dce8;
+  /* delli */
+  /* background-color: #10dce8; */
+  background-color: #009115;
   color: #ffffff;
 }
 
@@ -1330,7 +1334,9 @@ Banner Area CSS
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: #086AD8;
+  /* delli */
+  background: #0071B6;
+  /* background: #086AD8; */
   opacity: 0.6;
 }
 
@@ -1367,8 +1373,10 @@ Banner Area CSS
 }
 
 .home-sliders .home-item .main-banner-content .banner-btn .default-btn {
-  -webkit-box-shadow: 5px 5px #10dce875;
-          box-shadow: 5px 5px #10dce875;
+  -webkit-box-shadow: 5px 5px #fc9a58;
+          box-shadow: 5px 5px #fc9a58;
+  /* -webkit-box-shadow: 5px 5px #10dce875;
+  box-shadow: 5px 5px #10dce875; */
 }
 
 .home-sliders .home-item .main-banner-content .banner-btn .default-btn:hover {
@@ -1459,7 +1467,9 @@ Banner Area CSS
 }
 
 .home-sliders .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button:hover, .home-sliders .carousel .carousel__pagination .carousel__pagination-item .carousel__pagination-button.carousel__pagination-button--active {
-  background-color: #10dce8 !important;
+  /* background-color: #10dce8 !important; */
+  /* delli */
+  background-color: #FF6600 !important;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
@@ -1482,8 +1492,11 @@ Features Area CSS
   height: 70px;
   width: 70px;
   line-height: 70px;
-  background-color: #d1f9fc;
-  color: #10dce8;
+  /* delli */
+  background-color: #FF6600;
+  color: #ffffff;
+  /* background-color: #d1f9fc; */
+  /* color: #10dce8; */
   text-align: center;
   border-radius: 50px;
   font-size: 35px;
@@ -2469,6 +2482,7 @@ Video Section CSS
   padding-top: 150px;
   padding-bottom: 100px;
   height: 400px;
+  /* delli */
 }
 
 .video-content {
@@ -4688,6 +4702,7 @@ Process Area CSS
 /*================================================
 About Area CSS
 =================================================*/
+/* delli */
 .about-tab {
   max-width: 620px;
   padding: 100px 0;
@@ -4697,6 +4712,8 @@ About Area CSS
 .about-tab h2 {
   font-size: 38px;
   margin: 0 0 15px 0;
+  text-transform: inherit !important;
+  color: #FF6600;
 }
 
 .about-tab .bar {
@@ -4832,7 +4849,7 @@ About Area CSS
 }
 
 .about-image {
-  background-image: url(../images/about/about-2.jpg);
+  background-image: url(https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/nosotros.jpg);
   background-size: cover;
   background-position: center center;
   height: 100%;
@@ -6317,20 +6334,23 @@ Page Title Area CSS
   background-attachment: fixed;
 }
 
+/* delli */
 .page-title-area.item-bg-1 {
-  background-image: url(../images/page-bg.jpg);
+  background-image: url(https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/fondo.png);
 }
 
 .page-title-area.item-bg-2 {
-  background-image: url(../images/page-bg-2.jpg);
+  background-image: url(https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/fondo.png);
 }
 
 .page-title-area.item-bg-4 {
-  background-image: url(../images/page-bg-4.jpg);
+  background-image: url(https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/fondo.png);
 }
 
 .page-title-area.item-bg-5 {
-  background-image: url(../images/page-bg-5.jpg);
+  /* background-image: url(../images/page-bg-5.jpg); */
+  background-image: url(https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/fondo.png);
+
 }
 
 .page-title-area::before {
@@ -6341,9 +6361,11 @@ Page Title Area CSS
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: #000000;
+  /* delli */
+  background-color: #000000;
   opacity: .77;
 }
+
 
 .page-title-content {
   text-align: center;
@@ -7099,8 +7121,15 @@ Services Details CSS
 /*================================================
 Projects Details Area CSS
 =================================================*/
+/* delli */
 .project-details-image {
   margin-bottom: 30px;
+  height:500px
+}
+
+.imgEstudiosDetalle {
+  width: auto; 
+  max-height: 100%; 
 }
 
 .projects-details-desc {

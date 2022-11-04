@@ -1,13 +1,13 @@
 <template>
-    <div class="page-title-area item-bg-4">
+    <div class="page-title-area item-bg-5">
         <div class="d-table">
             <div class="d-table-cell">
                 <div class="container">
                     <div class="page-title-content">
-                        <h2>Single Projects</h2>
+                        <h2>Blog detalle</h2>
                         <ul>
-                            <li><router-link to="/">Home</router-link></li>
-                            <li>Single Projects</li>
+                            <li><router-link to="/">Inicio</router-link></li>
+                            <li>blog</li>
                         </ul>
                     </div>
                 </div>

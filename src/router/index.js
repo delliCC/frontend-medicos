@@ -1,7 +1,7 @@
 import { createWebHistory, createRouter } from "vue-router";
 
 // All Pages
-import HomePageOne from '../components/pages/HomePageOne'
+import InicioPageOne from '../components/pages/InicioPageOne'
 import HomePageTwo from '../components/pages/HomePageTwo'
 import HomePageThree from '../components/pages/HomePageThree'
 import HomePageFour from '../components/pages/HomePageFour'
@@ -11,11 +11,11 @@ import HomePageSeven from '../components/pages/HomePageSeven'
 import HomePageEight from '../components/pages/HomePageEight' 
 import HomePageNine from '../components/pages/HomePageNine'
 import AboutPage from '../components/pages/AboutPage'
-import ServicesOnePage from '../components/pages/ServicesOnePage'
-import ServicesTwoPage from '../components/pages/ServicesTwoPage'
+import Capacitacion from '../components/pages/Capacitacion'
+import Webinar from '../components/pages/Webinar'
 import SingleServicesPage from '../components/pages/SingleServicesPage'
 import ProjectsPageOne from '../components/pages/ProjectsPageOne'
-import ProjectsPageTwo from '../components/pages/ProjectsPageTwo'
+import Estudios from '../components/pages/Estudios'
 import SingleProjectsPage from '../components/pages/SingleProjectsPage'
 import BlogOnePage from '../components/pages/BlogOnePage'
 import BlogTwoPage from '../components/pages/BlogTwoPage'
@@ -31,7 +31,7 @@ import PrivacyPolicyPage from '../components/pages/PrivacyPolicyPage'
 import ErrorPage from '../components/pages/ErrorPage'
 
 const routes = [
-    {path: '/', component: HomePageOne},
+    {path: '/', component: InicioPageOne},
     {path: '/home-two', component: HomePageTwo},
     {path: '/home-three', component: HomePageThree},
     {path: '/home-four', component: HomePageFour},
@@ -40,16 +40,16 @@ const routes = [
     {path: '/home-seven', component: HomePageSeven},
     {path: '/home-eight', component: HomePageEight},
     {path: '/home-nine', component: HomePageNine},
-    {path: '/about', component: AboutPage},
-    {path: '/services-one', component: ServicesOnePage},
-    {path: '/services-two', component: ServicesTwoPage},
-    {path: '/single-services', component: SingleServicesPage},
+    {path: '/nosotros', component: AboutPage},
+    {path: '/capacitacion', component: Capacitacion},
+    {path: '/webinar', component: Webinar},
+    {path: '/webinar-detalle', component: SingleServicesPage},
     {path: '/projects-one', component: ProjectsPageOne},
-    {path: '/projects-two', component: ProjectsPageTwo},
-    {path: '/single-projects', component: SingleProjectsPage},
-    {path: '/blog-one', component: BlogOnePage},
+    {path: '/estudios', component: Estudios},
+    {path: '/estudios-detalle/:id', component: SingleProjectsPage},
+    {path: '/blog', component: BlogOnePage},
     {path: '/blog-two', component: BlogTwoPage},
-    {path: '/single-blog', component: SingleBlogPage},
+    {path: '/single-blog/:id', component: SingleBlogPage},
     {path: '/contact', component: ContactPage},
     {path: '/team', component: TeamPage},
     {path: '/pricing', component: PricingPage},
@@ -57,7 +57,7 @@ const routes = [
     {path: '/log-in', component: LogInPage},
     {path: '/sign-up', component: SignUpPage},
     {path: '/terms-condition', component: TermsConditionsPage},
-    {path: '/privacy-policy', component: PrivacyPolicyPage},
+    {path: '/aviso-de-privacidad', component: PrivacyPolicyPage},
     {path: '/error-404', component: ErrorPage},
 ]
     

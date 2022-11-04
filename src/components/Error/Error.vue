@@ -6,10 +6,10 @@
                     <div class="error-content">
                         <img src="../../assets/images/404.png" alt="error">
     
-                        <h3>Page Not Found</h3>
+                        <h3>Pagina no encontrada</h3>
                         <p>The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
     
-                        <router-link to="/" class="default-btn">Go to Home</router-link>
+                        <router-link to="/" class="default-btn">ir al Inicio</router-link>
                     </div>
                 </div>
             </div>

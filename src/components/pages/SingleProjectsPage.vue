@@ -10,8 +10,8 @@
 
 <script>
     import Navbar from '../Layout/Navbar'
-    import PageTitle from '../SingleProjects/PageTitle'
-    import ProjectDetails from '../SingleProjects/ProjectDetails'
+    import PageTitle from '../EstudiosDetalle/PageTitle'
+    import ProjectDetails from '../EstudiosDetalle/ProjectDetails'
     import Footer from '../Layout/Footer'
     import CopyRight from '../Layout/CopyRight'
 

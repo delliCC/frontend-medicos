@@ -2,24 +2,24 @@
     <div class="services-section pt-100 pb-100">
         <div class="container">
             <div class="section-title">
-                <h2>IT  Agency Services</h2>
+                <h2>Capacitación</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt  labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
                 <div class="bar"></div>
             </div>
 
             <div class="row">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" v-for="capacitacion in array_capacitacion" :key="capacitacion.id">
                     <div class="single-services">
                         <div class="icon">
                             <i class="flaticon-it"></i>
                         </div>
-                        <h3>IT Consultancy</h3>
+                        <h3>{{capacitacion.nombre}}</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore facilisis.</p>
                         <router-link to="/single-services" class="read-btn">Read More</router-link>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <!-- <div class="col-lg-4 col-md-6">
                     <div class="single-services">
                         <div class="icon">
                             <i class="flaticon-setting"></i>
@@ -72,7 +72,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore facilisis.</p>
                         <router-link to="/single-services" class="read-btn">Read More</router-link>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="col-lg-12 col-md-12">
                     <div class="pagination-area">
@@ -117,6 +117,32 @@
 
 <script>
     export default {
-        name: 'Services'
+        name: 'Services',
+        data() {
+            return {
+                array_capacitacion:[]
+            }
+        },
+        mounted() {
+            this.webinar()
+        },
+        methods:{
+            webinar() {
+                this.$axios.get(`http://localhost/api/training`).then(response => {
+                    this.array_capacitacion = response.data.data
+                    console.log(this.array_capacitacion)
+                    
+                }).catch(() => {
+                // this.$toast({
+                // component: ToastificationContent,
+                // props: {
+                //     title: 'Error al cargar datos',
+                //     icon: 'ThumbsDownIcon',
+                //     variant: 'danger',
+                // },
+                // })
+                })
+            },
+        }
     }
 </script>

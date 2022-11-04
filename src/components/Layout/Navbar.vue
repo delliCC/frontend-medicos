@@ -5,7 +5,9 @@
                 <div class="container">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <router-link class="navbar-brand" to="/">
-                            <img src="../../assets/images/logo.png" alt="logo">
+                            <!-- <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/favicon.png" alt="avatar" > -->
+                            <img src="https://laboratorios-chontalpa-file.s3.amazonaws.com/assets/laboratorios-chontalpa-logotipo1.png" alt="avatar">
+                            <!-- <img src="../../assets/images/logo.png" alt="logo"> -->
                         </router-link>
 
                         <div 
@@ -23,10 +25,10 @@
                             <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
-                                        Home 
-                                        <i class='bx bx-chevron-down'></i>
+                                        Inicio 
+                                        <!-- <i class='bx bx-chevron-down'></i> -->
                                     </a>
-                                    <ul class="dropdown-menu">
+                                    <!-- <ul class="dropdown-menu">
                                         <li class="nav-item">
                                             <router-link  to="/" class="nav-link">
                                                 Home One
@@ -80,43 +82,46 @@
                                                 Home Nine
                                             </router-link>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
 
                                 <li class="nav-item">
-                                    <router-link  to="/about" class="nav-link">
-                                        About
+                                    <router-link  to="/nosotros" class="nav-link">
+                                        Nosotros
                                     </router-link>
                                 </li>
 
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
-                                        Services 
+                                        Cursos 
                                         <i class='bx bx-chevron-down'></i>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <router-link  to="/services-one" class="nav-link">
-                                                Services
+                                            <router-link  to="/capacitacion" class="nav-link">
+                                                Capacitación
                                             </router-link>
                                         </li>
 
                                         <li class="nav-item">
-                                            <router-link  to="/services-two" class="nav-link">
-                                                Services Two
+                                            <router-link  to="/webinar" class="nav-link">
+                                                Webinar
                                             </router-link>
                                         </li>
 
-                                        <li class="nav-item">
+                                        <!-- <li class="nav-item">
                                             <router-link  to="/single-services" class="nav-link">
                                                 Services Details
                                             </router-link>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <router-link  to="/estudios" class="nav-link">
+                                        Estudios
+                                    </router-link>
+                                    <!-- <a href="#" class="nav-link">
                                         Projects 
                                         <i class='bx bx-chevron-down'></i>
                                     </a>
@@ -139,10 +144,10 @@
                                                 Projects details
                                             </router-link>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
 
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a href="#" class="nav-link">
                                         Pages 
                                         <i class='bx bx-chevron-down'></i>
@@ -218,10 +223,13 @@
                                             </router-link>
                                         </li>
                                     </ul>
-                                </li>
+                                </li> -->
 
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <router-link  to="/blog" class="nav-link">
+                                        Blog
+                                    </router-link>
+                                    <!-- <a href="#" class="nav-link">
                                         Blog 
                                         <i class='bx bx-chevron-down'></i>
                                     </a>
@@ -243,18 +251,24 @@
                                                 Blog Details
                                             </router-link>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
 
                                 <li class="nav-item">
                                     <router-link  to="/contact" class="nav-link">
-                                        Contact
+                                        Contacto
+                                    </router-link>
+                                </li>
+                                <li class="nav-item">
+                                    <router-link  to="/log-in" class="nav-link">
+                                        Iniciar sesión
                                     </router-link>
                                 </li>
                             </ul>
                         </div>
 
-                        <div class="others-options">
+                        <!-- icono  -->
+                        <!-- <div class="others-options">
                             <div 
                                 class="burger-menu"
                                 v-on:click="isPopupMethod(isPopup)"
@@ -263,7 +277,7 @@
                                 <span></span>
                                 <span></span>
                             </div>
-                        </div>
+                        </div> -->
                     </nav>
                 </div>
             </div>
@@ -291,85 +305,14 @@
                     <h2>Contact</h2>
                     <div class="contact-form">
                         <form>
-                            <div class="row">
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" name="name" id="name" class="form-control" required placeholder="Your Name">
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <input type="email" name="email" id="email" class="form-control" required placeholder="Your Email">
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" name="phone_number" id="phone_number" required class="form-control" placeholder="Your Phone">
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" name="msg_subject" id="msg_subject" class="form-control" required placeholder="Your Subject">
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <textarea name="message" class="form-control" id="message" cols="30" rows="6" required placeholder="Your Message"></textarea>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="send-btn">
-                                        <button type="submit" class="send-btn-one">
-                                            Send Message
-                                        </button>
-                                    </div>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="send-btn">
+                                    <button type="submit" class="send-btn-one">
+                                        Send Message
+                                    </button>
                                 </div>
                             </div>
                         </form>
-                    </div>
-                </div>
-
-                <div class="sidebar-contact-area">
-                    <div class="contact-info">
-                        <div class="contact-info-content">
-                            <h2>
-                                <a href="tel:+0881306298615">
-                                    +088 130 629 8615
-                                </a>
-                                <span>OR</span>
-                                <a href="mailto:valzo@gmail.com">
-                                    valzo@gmail.com
-                                </a>
-                            </h2>
-
-                            <ul class="social">
-                                <li>
-                                    <a href="#" target="_blank">
-                                        <i class="flaticon-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" target="_blank">
-                                        <i class="flaticon-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" target="_blank">
-                                        <i class="flaticon-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" target="_blank">
-                                        <i class="flaticon-pinterest"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
             </div>

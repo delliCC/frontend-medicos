@@ -1,7 +1,7 @@
 <template>
-    <div class="footer-section pt-100 pb-70">
+    <div class="footer-section pt-70 pb-40">
         <div class="container">
-            <div class="subscribe-area">
+            <!-- <div class="subscribe-area">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6">
                         <div class="subscribe-content">
@@ -19,32 +19,35 @@
                         </form>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
                         <div class="footer-heading">
-                            <h3>About Us</h3>
+                            <h3>Acerca de nosotros</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                        <p>
+                            En Laboratorios Chontalpa proporcionamos servicios auxiliares del diagnóstico médico que garantiza los más altos estándares de calidad para contribuir al cuidado y mejor la salud en la sociedad.
+                            Más de 40 años de experiencia respaldan nuestro trabajo.
+                        </p>
 
                         <ul class="footer-social">
                             <li>
-                                <a href="#" target="_blank">
+                                <a href="https://www.facebook.com/LaboratoriosChontalpa/" target="_blank">
                                     <i class="flaticon-facebook"></i>
                                 </a>
                             </li>
-                            <li>
+                             <!-- <li>
                                 <a href="#" target="_blank">
                                     <i class="flaticon-twitter"></i>
                                 </a>
-                            </li>
-                            <li>
+                            </li> -->
+                            <!-- <li>
                                 <a href="#" target="_blank">
                                     <i class="flaticon-pinterest"></i>
                                 </a>
-                            </li>
+                            </li>  -->
                             <li>
                                 <a href="#" target="_blank">
                                     <i class="flaticon-instagram"></i>
@@ -57,24 +60,18 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
                         <div class="footer-heading">
-                            <h3>Important Links</h3>
+                            <h3></h3>
                         </div>
 
                         <ul class="footer-quick-links">
                             <li>
-                                <router-link to="/about">About Us</router-link>
-                            </li>
-                            <li>
-                                <router-link to="/projects">Project</router-link>
-                            </li>
-                            <li>
-                                <router-link to="/services">Services</router-link>
+                                <router-link to="/nosotros">Nosotros</router-link>
                             </li>
                             <li>
                                 <router-link to="/blog">Blog</router-link>
                             </li>
                             <li>
-                                <router-link to="/contact">Contact</router-link>
+                                <router-link to="/contact">Contacto</router-link>
                             </li>
                         </ul>
                     </div>    
@@ -83,23 +80,17 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
                         <div class="footer-heading">
-                            <h3>Featured Service</h3>
+                            <h3>Servicios</h3>
                         </div>
                         <ul class="footer-quick-links">
                             <li>
-                                <a href="#">IT Management</a>
+                                <router-link to="/estudios">Estudios</router-link>
                             </li>
                             <li>
-                                <a href="#">Development</a>
+                                <router-link to="/capacitacion">Capacitación</router-link>
                             </li>
                             <li>
-                                <router-link to="/services">Services</router-link>
-                            </li>
-                            <li>
-                                <a href="#">UI/UX Design</a>
-                            </li>
-                            <li>
-                                <a href="#">Support Engineer</a>
+                                <router-link to="/webinar">Webinar</router-link>
                             </li>
                         </ul>
                     </div>    
@@ -108,26 +99,26 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
                         <div class="footer-heading">
-                            <h3>Contact</h3>
+                            <h3>Contacto</h3>
                         </div>
 
                         <div class="footer-info-contact">
                             <i class="flaticon-phone-call"></i>
-                            <h3>Phone</h3>
-                            <span><a href="tel:+882-569-756">+123(456)123</a></span>
+                            <h3>Atención telefónica las 24 horas:</h3>
+                            <span><a href="tel:+882-569-756">800 501 55 55</a></span>
                         </div>
 
                         <div class="footer-info-contact">
                             <i class="flaticon-envelope"></i>
-                            <h3>Email</h3>
-                            <span><a href="mailto:hello@valzo.com">hello@valzo.com</a></span>
+                            <h3>Whatsapp</h3>
+                            <span><a href="554 540 0680">554 540 0680</a></span>
                         </div>
 
-                        <div class="footer-info-contact">
+                        <!-- <div class="footer-info-contact">
                             <i class="flaticon-pin"></i>
                             <h3>Address</h3>
                             <span>32 st Kilda Road, Melbourne VIC, 3004 Australia</span>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
